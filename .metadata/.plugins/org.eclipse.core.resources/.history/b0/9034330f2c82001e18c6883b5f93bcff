@@ -1,0 +1,19 @@
+package br.com.fiap.beans;
+
+public class Produto {
+	
+	private int id, qtd;
+	private String tipo, marca;
+	private double valor;
+	
+	
+	public Produto(int id, int qtd, String tipo, String marca, double valor) {
+		super();
+		this.id = id;
+		this.qtd = qtd;
+		this.tipo = tipo;
+		this.marca = marca;
+		this.valor = valor;
+	}
+	
+}

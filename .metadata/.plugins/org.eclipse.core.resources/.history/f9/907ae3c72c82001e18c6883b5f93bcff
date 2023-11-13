@@ -1,0 +1,12 @@
+package br.com.fiap.main;
+
+public class Main {
+	
+	static String texto(String j) {
+		return 
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

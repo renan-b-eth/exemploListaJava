@@ -1,0 +1,20 @@
+package br.com.fiap.main;
+
+import javax.swing.JOptionPane;
+
+public class Main {
+	
+	static String texto(String j) {
+		return JOptionPane.showInputDialog(j);
+	}
+	
+	static int textoInteiro(String j) {
+		return Integer.parseInt(JOptionPane.showInputDialog(j));
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}

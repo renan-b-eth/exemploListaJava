@@ -1,0 +1,30 @@
+package br.com.fiap.main;
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.JOptionPane;
+import br.com.fiap.beans.Produto;
+
+public class Main {
+	
+	static String texto(String j) {
+		return JOptionPane.showInputDialog(j);
+	}
+	
+	static int textoInteiro(String j) {
+		return Integer.parseInt(JOptionPane.showInputDialog(j));
+	}
+	
+	static double textoDouble(String j) {
+		return Double.parseDouble(JOptionPane.showInputDialog(j));
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		//interfaces que possuem contratos
+		List<Produto> p = new ArrayList<Produto>();
+		
+		Produto p = new Produto();
+	}
+	
+}

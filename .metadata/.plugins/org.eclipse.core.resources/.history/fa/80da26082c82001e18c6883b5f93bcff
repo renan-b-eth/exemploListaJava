@@ -1,0 +1,9 @@
+package br.com.fiap.beans;
+
+public class Produto {
+	
+	private int id, qtd;
+	private String tipo, marca;
+	private double valor;
+	
+}
